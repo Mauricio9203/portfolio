@@ -1,70 +1,91 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portafolio de Mauricio Garrido
 
-## Available Scripts
+¡Bienvenido a mi portafolio! Soy **Mauricio Garrido**, un desarrollador web apasionado por crear aplicaciones modernas y soluciones efectivas. En este repositorio encontrarás mi portafolio personal, el cual muestra mis proyectos, habilidades, experiencia laboral y formas de contacto.
 
-In the project directory, you can run:
+## 📋 Descripción
 
-### `npm start`
+Este portafolio es una aplicación web construida con **React**, **Material UI**, **Node.js**, **HTML5**, **CSS3** y **JavaScript**. Contiene las siguientes secciones:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Proyectos**: Muestra una lista de proyectos con una ventana modal para detallar cada uno y enlaces a la vista previa en vivo y el repositorio en GitHub.
+2. **Habilidades**: Presenta las tecnologías con las que trabajo, representadas mediante iconos.
+3. **Experiencia Laboral**: Sección con detalles de mis experiencias profesionales, incluyendo el nombre de la empresa, el año y las responsabilidades en cada cargo.
+4. **Educación**: Muestra información sobre mis estudios y ofrece enlaces para descargar mis títulos universitarios.
+5. **Contacto**: Permite a los visitantes acceder a mis enlaces de LinkedIn, GitHub y WhatsApp, o enviar un mensaje directamente a mi correo desde el portafolio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Al final de la página, encontrarás un **footer** con un enlace a mi repositorio de GitHub.
 
-### `npm test`
+## 🚀 Tecnologías Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend**:
+  - React
+  - Material UI
+  - HTML5
+  - CSS3
+  - JavaScript
 
-### `npm run build`
+- **Backend**:
+  - Node.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Instalación y Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/tu-usuario/tu-portafolio.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Navegar al directorio del proyecto:**
+   ```bash
+   cd tu-portafolio
+   ```
 
-### `npm run eject`
+3. **Instalar las dependencias:**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Ejecutar el proyecto en tu máquina local:**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver el portafolio.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌐 Despliegue
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este portafolio está disponible en línea en el siguiente enlace:  
+[Mi Portafolio en GitHub](https://github.com/Mauricio9203/portfolio)
 
-## Learn More
+## ✨ Características
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Proyectos**: Muestra una lista de tus proyectos con una ventana modal para ver detalles adicionales. Además, incluye enlaces a la vista previa en vivo y al repositorio de GitHub.
+- **Habilidades**: Iconos representando todas las tecnologías que utilizas.
+- **Experiencia Laboral**: Información sobre tu experiencia profesional con detalles sobre las empresas, cargos y responsabilidades.
+- **Educación**: Muestra tus estudios y permite a los usuarios descargar tus títulos universitarios.
+- **Contacto**: Sección donde los usuarios pueden ver tus enlaces a LinkedIn, GitHub, WhatsApp y enviarte un mensaje directamente desde el portafolio.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👨‍💻 Contribuciones
 
-### Code Splitting
+Si deseas contribuir a este proyecto, ¡serás bienvenido! Algunas formas de contribuir son:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Reportar errores o problemas.
+2. Proponer nuevas funcionalidades.
+3. Mejorar la documentación.
 
-### Analyzing the Bundle Size
+## 💬 Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Puedes contactarme a través de los siguientes medios:
 
-### Making a Progressive Web App
+- **Correo electrónico**: mauriciogarrido@email.com
+- **LinkedIn**: [LinkedIn de Mauricio Garrido](https://www.linkedin.com/in/mauriciogarrido)
+- **GitHub**: [GitHub de Mauricio Garrido](https://github.com/Mauricio9203)
+- **WhatsApp**: [Mi número de WhatsApp](https://wa.me/tu-numero)
+- **Enviar mensaje desde el portafolio**: Puedes enviarme un mensaje directamente desde el formulario de contacto en mi portafolio, y lo recibiré en mi correo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 Licencia
 
-### Advanced Configuration
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.

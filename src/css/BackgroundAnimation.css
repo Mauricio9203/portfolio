@@ -1,0 +1,23 @@
+.background-animation {
+    background: linear-gradient(45deg, #000000, #aaaaaa, #000000); /* Define tu fondo animado */
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s linear infinite;
+    
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  .texto-con-sombra {
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.9);
+  }

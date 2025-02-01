@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.text-color-dark {
+    color: #2E2E2E;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(245, 245, 245);
+  overflow-y: scroll !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.zoom-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s, box-shadow 0.1s;
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .zoom-image:hover {
+    transform: scale(1.02); /* Zoom cuando el mouse pasa por encima */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra cuando el mouse pasa por encima */
   }
-  to {
-    transform: rotate(360deg);
+
+  .zoom-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s
   }
+
+  .zoom-button {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s
+  }
+  
+  .zoom-svg:hover {
+    transform: scale(1.5); /* Zoom cuando el mouse pasa por encima */
+  }
+
+  .button-cv {
+    background-color: #000000;
+    color: white;
+  }
+
+  .button-cv:hover {
+    background-color: #2E2E2E;
+  }
+
+  
+
+
+  /* Estilo para el scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: #5b005b; /* Color del thumb (la parte móvil del scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Color del track (el fondo del scrollbar) */
+}
+
+
+body {
+  padding-right: 0 !important; /* Anula el padding-right agregado */
+}
+
+nav {
+  padding-right: 0 !important; /* Anula el padding-right agregado */
+}
+  
+  

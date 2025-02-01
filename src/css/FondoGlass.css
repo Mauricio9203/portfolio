@@ -1,0 +1,10 @@
+.glass-container {
+  background: rgba(0, 0, 0, 1); /* Color de fondo con transparencia */
+}
+
+/* Personaliza el contenido dentro del contenedor si es necesario */
+.glass-container p {
+  color: #000000; /* Cambia el color del texto según tu diseño */
+}
+
+
