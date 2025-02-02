@@ -16,19 +16,7 @@ const Pokedex = () => {
   const { darkMode } = useDarkMode();
   const [open, setOpen] = useState(false);
   const { translate } = useTranslation();
-  const [imagen, setImagen] = useState(
-    process.env.PUBLIC_URL + "/img/png/Pokedex.PNG"
-  );
-
-  const handleIniciarAnimacion = () => {
-    let imagenGif = process.env.PUBLIC_URL + "/img/gif/pokedex_gif.gif";
-    setImagen(imagenGif);
-  };
-
-  const handleFinalizarAnimacion = () => {
-    let imagen = process.env.PUBLIC_URL + "/img/png/Pokedex.PNG";
-    setImagen(imagen);
-  };
+  const imagen = process.env.PUBLIC_URL + "/img/png/Pokedex.png";
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,19 +38,13 @@ const Pokedex = () => {
             color: darkMode ? "white" : "black",
           }}
         >
-          <CardMedia
-            component="img"
-            alt="green iguana"
-            image={imagen}
-            onMouseOver={() => handleIniciarAnimacion()}
-            onMouseOut={() => handleFinalizarAnimacion()}
-          />
+          <CardMedia component="img" alt="Pokedex" image={imagen} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {translate("NombreProyecto_PokemonApp")}
             </Typography>
             <Divider sx={{ backgroundColor: darkMode ? "#555555" : "" }} />
-            <Typography variant="body2" >
+            <Typography variant="body2">
               {translate("DescripcionProyecto_PokemonApp")}
             </Typography>
           </CardContent>
@@ -111,8 +93,8 @@ const Pokedex = () => {
           <CardActions
             sx={{
               display: "flex",
-              justifyContent: "center", // Centra los botones horizontalmente
-              gap: 1, // Espacio entre botones (opcional)
+              justifyContent: "center",
+              gap: 1,
             }}
           >
             <Button
@@ -122,7 +104,8 @@ const Pokedex = () => {
               href="https://mauricio9203.github.io/pokedex/"
               size="small"
               startIcon={<PlayCircleOutlineIcon />}
-            ></Button>
+              sx={{fontSize: "0.6rem"}}
+            >LIVE</Button>
             <Button
               target="_blank"
               variant="contained"
@@ -133,16 +116,12 @@ const Pokedex = () => {
                 backgroundColor: "black",
                 color: "white",
                 "&:hover": {
-                  backgroundColor: "#333", // Opcional, para un hover más suave
+                  backgroundColor: "#333",
                 },
+                fontSize: "0.6rem"
               }}
-            >
-              {" "}
-            </Button>
-            <ModalGlobal 
-        title="Pokedex" 
-        content={translate("DescripcionPokedex")}
-      />
+            >GITHUB</Button>
+            <ModalGlobal title="Pokedex" content={translate("DescripcionPokedex")} />
           </CardActions>
         </Card>
       </Grid>

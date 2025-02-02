@@ -12,24 +12,10 @@ import { useDarkMode } from "../../context/darkModeContext";
 import { useTranslation } from "../../context/i18nContext";
 import ModalGlobal from "./ModalGlobal";
 
-
 const DepositPredictor = () => {
   const [open, setOpen] = useState(false);
   const { darkMode } = useDarkMode();
   const { translate } = useTranslation();
-  const [imagen, setImagen] = useState(
-    process.env.PUBLIC_URL + "/img/png/bank_predictor.PNG"
-  );
-
-  const handleIniciarAnimacion = () => {
-    let imagenGif = process.env.PUBLIC_URL + "/img/gif/bank_predictor_gif.gif";
-    setImagen(imagenGif);
-  };
-
-  const handleFinalizarAnimacion = () => {
-    let imagen = process.env.PUBLIC_URL + "/img/png/bank_predictor.PNG";
-    setImagen(imagen);
-  };
 
   useEffect(() => {
     setTimeout(() => {
@@ -53,10 +39,8 @@ const DepositPredictor = () => {
         >
           <CardMedia
             component="img"
-            alt="green iguana"
-            image={imagen}
-            onMouseOver={() => handleIniciarAnimacion()}
-            onMouseOut={() => handleFinalizarAnimacion()}
+            alt="Deposit Predictor"
+            image={process.env.PUBLIC_URL + "/img/png/bank_predictor.png"}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -118,11 +102,11 @@ const DepositPredictor = () => {
             </Tooltip>
           </CardActions>
           <CardActions
-           sx={{
-            display: "flex",
-            justifyContent: "center", // Centra los botones horizontalmente
-            gap: 1, // Espacio entre botones (opcional)
-          }}
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              gap: 1,
+            }}
           >
             <Button
               color="secondary"
@@ -131,7 +115,9 @@ const DepositPredictor = () => {
               href="https://predictivebanking.onrender.com/"
               size="small"
               startIcon={<PlayCircleOutlineIcon />}
+              sx={{fontSize: "0.6rem"}}
             >
+              Live
             </Button>
             <Button
               target="_blank"
@@ -143,16 +129,17 @@ const DepositPredictor = () => {
                 backgroundColor: "black",
                 color: "white",
                 "&:hover": {
-                  backgroundColor: "#333", // Opcional, para un hover más suave
+                  backgroundColor: "#333",
                 },
+                fontSize: "0.6rem"
               }}
             >
-       
+              Github
             </Button>
-            <ModalGlobal 
-        title="Deposit Predictor" 
-        content={translate("DescripcionBankPredictor")}
-      />
+            <ModalGlobal
+              title="Deposit Predictor"
+              content={translate("DescripcionBankPredictor")}
+            />
           </CardActions>
         </Card>
       </Grid>

@@ -41,11 +41,12 @@ const SendEmail = ({ openEmail }) => {
       
           setOpenNotificacion(true)
           if (response.ok) {
-            setMensajeNotificacion("Correo enviado con éxito.")
-            handleNotificacion(true, "Correo enviado con éxito.", "success")
+            
+            setMensajeNotificacion("Mail sent successfully.")
+            handleNotificacion(true, "Mail sent successfully.", "success")
             handleCleanForm()
           } else {
-            handleNotificacion(true, "Error al enviar correo.", "error")
+            handleNotificacion(true, "Error sending mail.", "error")
           }
     }
   };

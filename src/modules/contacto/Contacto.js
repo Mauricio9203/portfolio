@@ -1,4 +1,4 @@
-import { Divider, Grid } from '@mui/material'
+import { Grid } from '@mui/material'
 import React from 'react'
 import ContenidoContacto from './ContenidoContacto'
 import TituloContacto from './TituloContacto'

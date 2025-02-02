@@ -24,23 +24,23 @@ const ModalGlobal = ({ title, content }) => {
         size="small"
         startIcon={<ArticleIcon />}
         onClick={handleOpen}
-        sx={{ ml: 1 }}
+        sx={{  fontSize: "0.6rem"}}
       >
-        Detail
+      Details
       </Button>
 
       {/* Modal */}
-      <Modal open={open} onClose={handleClose} >
+      <Modal open={open} onClose={handleClose}>
         <Box
           sx={{
             position: "absolute",
             top: "50%",
             left: "50%",
-            transform: "translate(-50%, -50%)",
+            transform: open ? "translate(-50%, -50%)" : "translate(-50%, -40%)", // Desplazamiento en la apertura
             width: "100vw",
             maxWidth: "800px", // Limita el ancho máximo
             height: "90vh",
-            bgcolor:  darkMode ? "#2E2E2E" : "white",
+            bgcolor: darkMode ? "#2E2E2E" : "white",
             color: darkMode ? "white" : "black",
             p: 4,
             borderRadius: 2,
@@ -48,6 +48,8 @@ const ModalGlobal = ({ title, content }) => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
+            opacity: open ? 1 : 0, // Aparece con opacidad
+            transition: "transform 2s ease-out, opacity 2s ease-out", // Animación combinada para 'transform' y 'opacity'
           }}
         >
           {/* Título dinámico */}
@@ -74,7 +76,7 @@ const ModalGlobal = ({ title, content }) => {
               sx={{ width: "150px", height: "30px" }}
               variant="contained"
             >
-              Cerrar
+              Close
             </Button>
           </Box>
         </Box>

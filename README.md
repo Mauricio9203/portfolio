@@ -1,21 +1,21 @@
 
-# Portafolio de Mauricio Garrido
+# Portfolio of Mauricio Garrido
 
-¡Bienvenido a mi portafolio! Soy **Mauricio Garrido**, un desarrollador web apasionado por crear aplicaciones modernas y soluciones efectivas. En este repositorio encontrarás mi portafolio personal, el cual muestra mis proyectos, habilidades, experiencia laboral y formas de contacto.
+Welcome to my portfolio! I am **Mauricio Garrido**, a web developer passionate about creating modern applications and effective solutions. In this repository, you will find my personal portfolio showcasing my projects, skills, work experience, and contact details.
 
-## 📋 Descripción
+## 📋 Description
 
-Este portafolio es una aplicación web construida con **React**, **Material UI**, **Node.js**, **HTML5**, **CSS3** y **JavaScript**. Contiene las siguientes secciones:
+This portfolio is a web application built with **React**, **Material UI**, **Node.js**, **HTML5**, **CSS3**, and **JavaScript**. It contains the following sections:
 
-1. **Proyectos**: Muestra una lista de proyectos con una ventana modal para detallar cada uno y enlaces a la vista previa en vivo y el repositorio en GitHub.
-2. **Habilidades**: Presenta las tecnologías con las que trabajo, representadas mediante iconos.
-3. **Experiencia Laboral**: Sección con detalles de mis experiencias profesionales, incluyendo el nombre de la empresa, el año y las responsabilidades en cada cargo.
-4. **Educación**: Muestra información sobre mis estudios y ofrece enlaces para descargar mis títulos universitarios.
-5. **Contacto**: Permite a los visitantes acceder a mis enlaces de LinkedIn, GitHub y WhatsApp, o enviar un mensaje directamente a mi correo desde el portafolio.
+1. **Projects**: Displays a list of projects with a modal window for each project and links to live previews and GitHub repositories.
+2. **Skills**: Showcases the technologies I work with, represented by icons.
+3. **Work Experience**: A section with details of my professional experience, including company names, years, and responsibilities for each role.
+4. **Education**: Displays information about my studies and offers links to download my university degrees.
+5. **Contact**: Allows visitors to access my LinkedIn, GitHub, and WhatsApp links or send me a message directly through my email from the portfolio.
 
-Al final de la página, encontrarás un **footer** con un enlace a mi repositorio de GitHub.
+At the bottom of the page, you will find a **footer** with a link to my GitHub repository.
 
-## 🚀 Tecnologías Utilizadas
+## 🚀 Technologies Used
 
 - **Frontend**:
   - React
@@ -27,65 +27,65 @@ Al final de la página, encontrarás un **footer** con un enlace a mi repositori
 - **Backend**:
   - Node.js
 
-## 📂 Instalación y Uso
+## 📂 Installation and Usage
 
-1. **Clonar el repositorio:**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tu-usuario/tu-portafolio.git
+   git clone https://github.com/your-username/your-portfolio.git
    ```
 
-2. **Navegar al directorio del proyecto:**
+2. **Navigate to the project directory:**
    ```bash
-   cd tu-portafolio
+   cd your-portfolio
    ```
 
-3. **Instalar las dependencias:**
+3. **Install the dependencies:**
    ```bash
    npm install
    ```
 
-4. **Ejecutar el proyecto en tu máquina local:**
+4. **Run the project on your local machine:**
    ```bash
    npm start
    ```
 
-5. Abrir [http://localhost:3000](http://localhost:3000) en tu navegador para ver el portafolio.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
 
-## 🌐 Despliegue
+## 🌐 Deployment
 
-Este portafolio está disponible en línea en el siguiente enlace:  
-[Mi Portafolio en GitHub](https://github.com/Mauricio9203/portfolio)
+This portfolio is available online at the following link:  
+[My Portfolio on GitHub](https://github.com/Mauricio9203/portfolio)
 
-## ✨ Características
+## ✨ Features
 
-- **Proyectos**: Muestra una lista de tus proyectos con una ventana modal para ver detalles adicionales. Además, incluye enlaces a la vista previa en vivo y al repositorio de GitHub.
-- **Habilidades**: Iconos representando todas las tecnologías que utilizas.
-- **Experiencia Laboral**: Información sobre tu experiencia profesional con detalles sobre las empresas, cargos y responsabilidades.
-- **Educación**: Muestra tus estudios y permite a los usuarios descargar tus títulos universitarios.
-- **Contacto**: Sección donde los usuarios pueden ver tus enlaces a LinkedIn, GitHub, WhatsApp y enviarte un mensaje directamente desde el portafolio.
+- **Projects**: Displays a list of your projects with a modal window for additional details. Also includes links to live previews and GitHub repositories.
+- **Skills**: Icons representing all the technologies you use.
+- **Work Experience**: Information about your professional experience, including company names, roles, and responsibilities.
+- **Education**: Displays your studies and allows users to download your university degrees.
+- **Contact**: Section where users can view your LinkedIn, GitHub, WhatsApp links, and send you a message directly from the portfolio.
 
-## 👨‍💻 Contribuciones
+## 👨‍💻 Contributions
 
-Si deseas contribuir a este proyecto, ¡serás bienvenido! Algunas formas de contribuir son:
+If you'd like to contribute to this project, feel free to do so! Some ways you can contribute are:
 
-1. Reportar errores o problemas.
-2. Proponer nuevas funcionalidades.
-3. Mejorar la documentación.
+1. Reporting bugs or issues.
+2. Suggesting new features.
+3. Improving the documentation.
 
-## 💬 Contacto
+## 💬 Contact
 
-Puedes contactarme a través de los siguientes medios:
+You can reach me through the following methods:
 
-- **Correo electrónico**: mauriciogarrido@email.com
-- **LinkedIn**: [LinkedIn de Mauricio Garrido](https://www.linkedin.com/in/mauriciogarrido)
-- **GitHub**: [GitHub de Mauricio Garrido](https://github.com/Mauricio9203)
-- **WhatsApp**: [Mi número de WhatsApp](https://wa.me/tu-numero)
-- **Enviar mensaje desde el portafolio**: Puedes enviarme un mensaje directamente desde el formulario de contacto en mi portafolio, y lo recibiré en mi correo.
+- **Email**: mauriciogarrido@email.com
+- **LinkedIn**: [Mauricio Garrido LinkedIn](https://www.linkedin.com/in/mauriciogarrido)
+- **GitHub**: [Mauricio Garrido GitHub](https://github.com/Mauricio9203)
+- **WhatsApp**: [My WhatsApp Number](https://wa.me/your-number)
+- **Send message from portfolio**: You can send me a message directly through the contact form on my portfolio, and I will receive it in my email.
 
-## 📝 Licencia
+## 📝 License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 ---
 
-¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
+Thank you for visiting my portfolio! If you have any questions or suggestions, feel free to contact me.

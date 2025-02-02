@@ -16,19 +16,7 @@ const PanelAdmin = () => {
   const [open, setOpen] = useState(false);
   const { darkMode } = useDarkMode();
   const { translate } = useTranslation();
-  const [imagen, setImagen] = useState(
-    process.env.PUBLIC_URL + "/img/png/panel_admin_mg.PNG"
-  );
-
-  const handleIniciarAnimacion = () => {
-    let imagenGif = process.env.PUBLIC_URL + "/img/gif/admin_mg_gif.gif";
-    setImagen(imagenGif);
-  };
-
-  const handleFinalizarAnimacion = () => {
-    let imagen = process.env.PUBLIC_URL + "/img/png/panel_admin_mg.PNG";
-    setImagen(imagen);
-  };
+  const imagen = process.env.PUBLIC_URL + "/img/png/panel_admin_mg.png";
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,13 +38,7 @@ const PanelAdmin = () => {
             color: darkMode ? "white" : "black",
           }}
         >
-          <CardMedia
-            component="img"
-            alt="green iguana"
-            image={imagen}
-            onMouseOver={() => handleIniciarAnimacion()}
-            onMouseOut={() => handleFinalizarAnimacion()}
-          />
+          <CardMedia component="img" alt="Panel Admin" image={imagen} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               {translate("NombreProyecto_PanelAdminApp")}
@@ -127,8 +109,8 @@ const PanelAdmin = () => {
           <CardActions
             sx={{
               display: "flex",
-              justifyContent: "center", // Centra los botones horizontalmente
-              gap: 1, // Espacio entre botones (opcional)
+              justifyContent: "center",
+              gap: 1,
             }}
           >
             <Button
@@ -138,7 +120,8 @@ const PanelAdmin = () => {
               href="https://myadminpanel-x318.onrender.com/login"
               size="small"
               startIcon={<PlayCircleOutlineIcon />}
-            ></Button>
+              sx={{  fontSize: "0.6rem"}}
+            >LIVE</Button>
             <Button
               target="_blank"
               variant="contained"
@@ -149,12 +132,11 @@ const PanelAdmin = () => {
                 backgroundColor: "black",
                 color: "white",
                 "&:hover": {
-                  backgroundColor: "#333", // Opcional, para un hover más suave
+                  backgroundColor: "#333",
                 },
+                fontSize: "0.6rem"
               }}
-            >
-              {" "}
-            </Button>
+            >GITHUB</Button>
             <ModalGlobal
               title="Admin Panel"
               content={translate("DescripcionAdminPanel")}
